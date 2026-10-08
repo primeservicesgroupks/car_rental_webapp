@@ -61,6 +61,30 @@ const VEHICLES = [
     features: ["Only 20,000 owner-reported miles", "LT trim with Chevrolet MyLink touchscreen", "Bluetooth, USB, and steering-wheel audio controls", "Cruise control", "Two-tone cloth seats", "16-inch alloy wheels and body-color mirrors", "Compact footprint, easy to park"],
     summary: "A low-mileage compact sedan. Easy to park and inexpensive to run inside the daily mile cap.",
     description: "This 2015 Chevrolet Cruze LT is unusual for the year: 20,000 owner-reported miles, black paint, and the LT equipment group. The bowtie grille, body-color mirrors, and alloy wheels are intact, and the cabin has two-tone cloth seats plus a MyLink touchscreen with Bluetooth. The 1.4-liter turbo four makes 138 horsepower through a 6-speed automatic. EPA estimates are about 26 city and 38 highway. It is the better pick for short Kansas trips, errands, and airport-style hops that fit inside 25 miles a day."
+  },
+  {
+    id: "camry-2012",
+    year: 2012,
+    make: "Toyota",
+    model: "Camry Hybrid",
+    trim: "XLE",
+    name: "2012 Toyota Camry Hybrid XLE",
+    color: "Barcelona Red Metallic",
+    miles: 105000,
+    seats: 5,
+    body: "Sedan",
+    drivetrain: "Front-wheel drive",
+    transmission: "eCVT",
+    engine: "2.5L hybrid inline-4",
+    horsepower: 200,
+    mpg: "43 city / 39 highway",
+    dailyRate: 15,
+    deposit: 200,
+    status: "available",
+    images: ["images/camry-quarter.jpg", "images/camry-front.jpg", "images/camry-rear.jpg", "images/camry-dash.jpg", "images/camry-cabin.jpg"],
+    features: ["XLE leather-trimmed beige seats", "Power driver seat and dual-zone climate", "Backup camera", "Bluetooth and USB audio", "Hybrid power meter", "17-inch alloy wheels", "25 miles included each rental day"],
+    summary: "A red XLE hybrid with beige leather, for renters who want a quiet midsize sedan inside the daily mile cap.",
+    description: "This 2012 Toyota Camry Hybrid XLE has 105,000 owner-reported miles, Barcelona Red Metallic paint, and a beige leather interior. The XLE group adds leather seats, a power driver seat, dual-zone climate, and a backup camera. Power is the 2.5-liter hybrid four, rated at about 200 combined horsepower, driving the front wheels through Toyota’s eCVT. EPA estimates for this model year are about 43 city and 39 highway. The gas-only 2012 Camry XLE used a 6-speed automatic; this hybrid does not. Best for short Spring Hill trips that stay inside the 25-mile daily allowance."
   }
 ];
 

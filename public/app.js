@@ -20,7 +20,7 @@ const VEHICLES = [
     engine: "2.4L i-VTEC inline-4",
     horsepower: 185,
     mpg: "27 city / 36 highway",
-    dailyRate: 52,
+    dailyRate: 20,
     deposit: 200,
     status: "available",
     images: [
@@ -60,7 +60,7 @@ const VEHICLES = [
     engine: "1.4L turbocharged inline-4",
     horsepower: 138,
     mpg: "26 city / 38 highway",
-    dailyRate: 38,
+    dailyRate: 10,
     deposit: 150,
     status: "available",
     images: [
