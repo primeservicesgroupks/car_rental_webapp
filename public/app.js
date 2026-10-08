@@ -920,6 +920,7 @@ function readPhotos(fileList) {
 async function handleSubmit(form) {
   const action = form.dataset.action;
   const data = Object.fromEntries(new FormData(form).entries());
+  if (form.dataset.id) data.id = form.dataset.id;
   const err = form.querySelector("#form-error");
   const fail = (msg) => { if (err) err.textContent = msg; toast(msg); };
   try {
